@@ -14,7 +14,7 @@ recipes:
 - sprout-osx-apps::iterm2
 - sprout-terminal
 - sprout-osx-apps::vagrant_plugins
-- cf-common::shiftit
+#- cf-common::shiftit
 - sprout-redis
 - sprout-mysql
 - sprout-postgresql
@@ -29,9 +29,9 @@ recipes:
 - sprout-rbenv
 - sprout-jetbrains-editors::rubymine
 - sprout-jetbrains-editors::intellij
-- cf-vim
+#- cf-vim
 
-- cf-bosh
+#- cf-bosh
 
 node_attributes:
   versions:
@@ -56,14 +56,14 @@ node_attributes:
       sprout-git:
         - bash_it/custom/git-duet_global.bash
         - bash_it/custom/git-export_editor.bash
-      cf-bosh:
-        - bash_it/custom/bo.bash
-      cf-common:
-        - bash_it/custom/common-aliases.bash
-        - bash_it/custom/dirty-repos.bash
-        - bash_it/custom/goto.bash
-        - bash_it/custom/pullify.bash
-        - bash_it/custom/purge-system-gems.bash
+#      cf-bosh:
+#        - bash_it/custom/bo.bash
+#      cf-common:
+#        - bash_it/custom/common-aliases.bash
+#        - bash_it/custom/dirty-repos.bash
+#        - bash_it/custom/goto.bash
+#        - bash_it/custom/pullify.bash
+#        - bash_it/custom/purge-system-gems.bash
 
   git_projects:
     -
@@ -124,7 +124,7 @@ node_attributes:
         - skype
         - sourcetree
         - virtualbox
-        - vmware-fusion
+#        - vmware-fusion
 
     terminal:
       default_profile: 'Pro'
@@ -178,6 +178,9 @@ node_attributes:
         - initials: mv
           name:     Marco Voelz
           email:    marco.voelz@sap.com
+        - initials: sw
+          name:     Scott Weiss
+          email:    scott.weiss@emc.com
         - initials: th
           name:     Tim Hausler
           username: thausler

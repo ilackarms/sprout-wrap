@@ -3,7 +3,7 @@ SITE
   specs:
     build-essential (2.2.3)
     dmg (2.2.2)
-    homebrew (1.12.0)
+    homebrew (1.13.0)
       build-essential (>= 2.1.2)
 
 GIT
@@ -32,7 +32,7 @@ GIT
 GIT
   remote: git://github.com/pivotal-sprout/sprout-homebrew.git
   ref: master
-  sha: 661fc92a9ae569ba466773762f7a14f09aa72b1b
+  sha: a2449dcc434ecd325abc150c75c39b7f6979f413
   specs:
     sprout-homebrew (0.2.0)
       homebrew (>= 1.5.4)
@@ -139,35 +139,7 @@ GIT
       sprout-base (>= 0.0.0)
       sprout-osx-apps (>= 0.0.0)
 
-PATH
-  remote: .
-  specs:
-    cf-bosh (0.1.0)
-      cf-common (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-      sprout-osx-apps (>= 0.0.0)
-
-PATH
-  remote: ..
-  specs:
-    cf-common (0.1.0)
-      homebrew (>= 1.6.6)
-      sprout-base (>= 0.0.0)
-      sprout-git (>= 0.0.0)
-      sprout-homebrew (>= 0.0.0)
-      sprout-mysql (>= 0.0.0)
-      sprout-osx-apps (>= 0.0.0)
-      sprout-postgresql (>= 0.0.0)
-      sprout-redis (>= 0.0.0)
-    cf-vim (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-      sprout-homebrew (>= 0.0.0)
-
 DEPENDENCIES
-  cf-bosh (>= 0)
-  cf-common (>= 0)
-  cf-vim (>= 0)
   dmg (>= 0)
   osx (>= 0)
   sprout-base (>= 0)
